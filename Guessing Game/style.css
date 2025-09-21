@@ -1,3 +1,39 @@
 body{
     background-color: aquamarine;
+      font-family: Arial, sans-serif;
+}
+.container{
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    width: 50%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    margin: 5% 20%;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+}
+input{
+  width: 60%;
+  padding: 12px;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+button{
+  width: 80%;
+  padding: 12px;
+  font-weight: bold;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+button:hover{
+    background-color: darkblue;
+    border: 2px solid darkblue;
 }
