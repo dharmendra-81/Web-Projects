@@ -1,0 +1,86 @@
+.header{
+    background-color: rgb(102, 19, 102);
+    width: 600px;
+    height: 50px;
+    border-radius: 30px 30px 0 0;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.thumbnail{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.thumbnail:hover{
+    transform: scale(1.05);
+    border-color: #777;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+p{
+    background-color: #faebd7;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+#modal {
+    position: fixed;
+    top: 40%;
+    bottom: auto;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.9);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#modal-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+#close-btn{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+}
+
+p{
+    border-radius: 0 0 30px 30px;
+}
