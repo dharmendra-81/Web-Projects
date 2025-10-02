@@ -1,0 +1,89 @@
+body, html {
+	height: 100%;
+	background-color: gainsboro;
+	display: flex; 
+	align-items: center; /* Center vertically */
+	justify-content: center;  /* Center horizontally */
+	font-family: Arial, sans-serif;
+}
+.header{
+    background-color: rgba(51,54,97,1);
+    width: 600px;
+    height: 50px;
+    border-radius: 30px 30px 0 0;
+	position: absolute;
+	top: 100px;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	width: 80%;
+	min-width: 300px; 
+	max-width: 600px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	gap: 20px;
+}
+
+.card:hover {
+	transform: translateY(-8px) scale(1.03);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+	display: grid;
+	padding: 20px 0;
+	grid-template-areas: "name-job" "description" "contacts";
+}
+
+.name-job {
+	grid-area: name-job;
+}
+
+.description {
+	grid-area: description;
+	margin-bottom: 50px;
+}
+
+.contacts {
+	grid-area: contacts;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+.portrait {
+	margin: 0;
+	padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 600px){
+	.header{
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	.card{
+		grid-template-columns: 1fr;
+		padding: 10px;
+	}
+        padding: 0;
+    }
+
+    .info{
+        text-align: center;
+        padding: 10px;
+    }
+}
