@@ -13,4 +13,4 @@ The projects range from simple static websites to dynamic web applications. They
 5. [Gallery](./Gallery/)
 6. [Digital Business Card](./Digital%20Business%20Card/)
 7. [Rick and Morty](./Rick%20and%20Morty/)
-
+8. [Caesar Cipher](./Caesar%20Cipher/)
