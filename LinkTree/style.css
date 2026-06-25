@@ -1,0 +1,21 @@
+img {
+  border-radius: 75px; /* makes the image circular */
+  width: 150px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+body {
+  background-color: slateblue;
+  color: white;
+  font-family: "Trebuchet MS";
+}
+
+a {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px; 
+}

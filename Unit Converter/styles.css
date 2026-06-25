@@ -1,0 +1,29 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+}
+
+body {
+  background-color: rgba(48, 122, 241, 0.426);
+  color: white;
+  font-family: "Trebuchet MS";
+}
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#result {
+    background-color: pink;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
